@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            
+            <div class="contact-info">
+                <i class="fas fa-envelope"></i> Support@muskmovers.com
+            </div>
+            <div class="working-hours">
+                <i class="fa fa-clock-o" aria-hidden="true"></i> Mon to Fri 8:00am to 6:00pm
+            </div>
+            <div class="online-chat">
+                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                <button>Online Chat</button>
+            </div>
+            
+        </div>
+        <div class="main-header">
+            <div class="logo">
+                <!-- <img id="img" src="./images/Mask group.png" alt="Car Rental Logo">
+                <p>Car Rental</p>
+                <img src="./images/Group 1.png" alt=""> -->
+                <img id="img" src="./images/Mask group.png" alt="Car Rental Logo">
+                <h3>Car Rental</h3>
+                <div class="btnn">Premium Service</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Share</a></li>
+                    <li><a href="#">Ride</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </nav>
+            <div class="user-options">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                <a href="#">Signup</a>
+                <div class="contact">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="contact-details">
+                        <p>Call us</p>
+                        <p>+92 3332431081</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    
+ 
+    <main>
+        <div class="hero-section">
+            <div class="hero-text">
+                <h1>Looking to save more <br> on your rental car?</h1>
+                <p id="para">Discover car rental options in your city. <br> Select from a range of car options.</p>
+                <button class="book-now">Book Now</button>
+            </div>
+        
+            <div class="background-image">
+                <img src="./images/pngtree-amazing-lllustrations-of-yellow-jeep-rubicon-png-image_1002693-removebg-preview 1.png" alt="">
+            </div>
+        </div>
+
+        <div class="search-container">
+            <div class="search-row">
+                <div class="dropdown">
+                    <label for="company">SELECT COMPANY</label>
+                    <select id="company" name="company">
+                        <option value="">All company</option>
+                        <option value="company1">Company 1</option>
+                        <option value="company2">Company 2</option>
+                        <option value="company3">Company 3</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="model">SELECT MODEL</label>
+                    <select id="model" name="model">
+                        <option value="">All Models</option>
+                        <option value="model1">Model 1</option>
+                        <option value="model2">Model 2</option>
+                        <option value="model3">Model 3</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="roof">SELECT ROOF</label>
+                    <select id="roof" name="roof">
+                        <option value="">Open Roof</option>
+                        <option value="roof1">Roof 1</option>
+                        <option value="roof2">Roof 2</option>
+                        <option value="roof3">Roof 3</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="fuel">SELECT FUEL</label>
+                    <select id="fuel" name="fuel">
+                        <option value="">All Petrol</option>
+                        <option value="fuel1">Fuel 1</option>
+                        <option value="fuel2">Fuel 2</option>
+                        <option value="fuel3">Fuel 3</option>
+                    </select>
+                </div>
+                <button class="search-btn">Search</button>
+            </div>
+
+            <div class="works">
+                <h2>How it work</h2>
+                <h1>Rentgo following 3 working steps</h1>
+            </div>
+        </div>
+
+        <div class="boxes">
+        <div class="box">
+            <div class="icon">
+                <img src="./images/Group 17.png" alt="Location Icon">
+            </div>
+            <div class="content">
+                <h2>Choose a Location</h2>
+                <p>Discover car rental options in your city. Select from a range of car options.</p>
+            </div>
+        </div>
+
+        <div class="box icon-img">
+            <img src="./images/Vector 1.png"alt="">
+        </div>
+        
+        <div class="box">
+            <div class="icon">
+                <img src="./images/Group 18.png" alt="Pick-up Icon">
+            </div>
+            <div class="content">
+                <h2>Pick-up Date</h2>
+                <p>Discover car rental options in your city. Select from a range of car options.</p>
+            </div>
+        </div>
+
+        <div class="box icon-img">
+            <img id="down" src="./images/Vector 2.png"alt="">
+        </div>
+        
+        <div class="box">
+            <div class="icon">
+                <img src="./images/Group 19.png" alt="Booking Icon">
+            </div>
+            <div class="content">
+                <h2>Book Your Car</h2>
+                <p>Discover car rental options in your city. Select from a range of car options.</p>
+            </div>
+        </div>
+    </div>
+        
+
+    <div class="container">
+        <div class="img-container">
+            <img src="./images/pngtree-a-car-png-image_2449751-removebg-preview 1.png" alt="">
+        </div>
+        <div class="right-container">
+            <h2 id="popin">BEST SERVICES</h2>
+            <h1>Feel the best experience with our <br>
+                rental deals</h1>
+
+                <div class="img-text">
+                    <div class="icon-image">
+                        <img src="./images/Group 34.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Deals for every budget</h3>
+                        <p>Discover car rental option in your city. <br>
+                            Select from a range of car options.</p>
+                    </div>
+                </div>
+
+                <div class="img-text">
+                    <div class="icon-image">
+                        <img src="./images/Group 35.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Best price guarented</h3>
+                        <p>Discover car rental option in your city. <br>
+                            Select from a range of car options.</p>
+                    </div>
+                </div>
+
+                <div class="img-text">
+                    <div class="icon-image">
+                        <img src="./images/Group 36.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Support 24/7</h3>
+                        <p>Discover car rental option in your city. <br>
+                            Select from a range of car options.</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="top-brands">
+        <h2 id="popin">TOP BRANDS</h2>
+        <h1>Explore Our Top Deals from <br>
+            Top Rated Dealers </h1>
+        </div>
+
+        <div class="btns">
+            <div class="icon-btn">
+                <img src="./images/download__2_-removebg-preview (3) 1.png" alt="">
+                <h4>Audi</h4>
+            </div>
+    
+            <div class="icon-btn">
+                <img src="./images/honda-logo-png-picture-20-removebg-preview 1 (2).png" alt="">
+                <h4>Honda</h4>
+            </div>
+    
+            <div class="icon-btn">
+                <img src="./images/download__10_-removebg-preview (3) 1.png" alt="">
+                <h4>Toyota</h4>
+            </div>
+    
+            <div class="icon-btn">
+                <img src="./images/download__11_-removebg-preview (2) 1.png" alt="">
+                <h4>Nessan</h4>
+            </div>
+    
+            <div class="icon-btn">
+                <img src="./images/download__3_-removebg-preview (4) 1.png" alt="">
+                <h4>Tesla</h4>
+            </div>
+    
+            <div class="icon-btn">
+                <h4>Explore All</h4>
+            </div>
+        </div>
+
+        <div class="cards carousel">
+        <div class="car-box carousel-item">
+            <div class="car-text">
+                <img src="./images/Group 64 (1).png" alt="">
+            </div>
+            <h4>2020 Audi A4</h4>
+            <div class="price">
+                <h2>$422</h2>
+                <p>/month</p>
+            </div>
+            <hr>
+            <div class="icon-text-container">
+                <div class="icon-text">
+                    <i class="fa-solid fa-car"></i>
+                    <p>20k</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa fa-codiepie" aria-hidden="true"></i>
+                    <p>Auto</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa-solid fa-gas-pump"></i>
+                    <p>Petrol</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="rent-btn">Rent Now</button>
+            </div>
+        </div>
+
+        <div class="car-box carousel-item">
+            <div class="car-text">
+                <img src="./images/download__8_-removebg-preview (2) 1.png" alt="">
+            </div>
+            <h4>2020 Audi Q3</h4>
+            <div class="price">
+                <h2>$422</h2>
+                <p>/month</p>
+            </div>
+            <hr>
+            <div class="icon-text-container">
+                <div class="icon-text">
+                    <i class="fa-solid fa-car"></i>
+                    <p>20k</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa fa-codiepie" aria-hidden="true"></i>
+                    <p>Auto</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa-solid fa-gas-pump"></i>
+                    <p>Petrol</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="rent-btn">Rent Now</button>
+            </div>
+        </div>
+
+        <div class="car-box carousel-item">
+            <div class="car-text">
+                <img id="third-img" src="./images/download__7_-removebg-preview (3) 1.png" alt="">
+            </div>
+            <h4>2020 Audi A4</h4>
+            <div class="price">
+                <h2>$422</h2>
+                <p>/month</p>
+            </div>
+            <hr>
+            <div class="icon-text-container">
+                <div class="icon-text">
+                    <i class="fa-solid fa-car"></i>
+                    <p>20k</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa fa-codiepie" aria-hidden="true"></i>
+                    <p>Auto</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa-solid fa-gas-pump"></i>
+                    <p>Petrol</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="rent-btn">Rent Now</button>
+            </div>
+        </div>
+
+
+        <div class="car-box carousel-item">
+            <div class="car-text">
+                <img id="third-img" src="./images/Group 64 (1).png" alt="">
+            </div>
+            <h4>2020 Audi A4</h4>
+            <div class="price">
+                <h2>$422</h2>
+                <p>/month</p>
+            </div>
+            <hr>
+            <div class="icon-text-container">
+                <div class="icon-text">
+                    <i class="fa-solid fa-car"></i>
+                    <p>20k</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa fa-codiepie" aria-hidden="true"></i>
+                    <p>Auto</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa-solid fa-gas-pump"></i>
+                    <p>Petrol</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="rent-btn">Rent Now</button>
+            </div>
+        </div>
+
+        <div class="car-box carousel-item">
+            <div class="car-text">
+                <img id="third-img" src="./images/download__8_-removebg-preview (2) 1.png" alt="">
+            </div>
+            <h4>2020 Audi A4</h4>
+            <div class="price">
+                <h2>$422</h2>
+                <p>/month</p>
+            </div>
+            <hr>
+            <div class="icon-text-container">
+                <div class="icon-text">
+                    <i class="fa-solid fa-car"></i>
+                    <p>20k</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa fa-codiepie" aria-hidden="true"></i>
+                    <p>Auto</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa-solid fa-gas-pump"></i>
+                    <p>Petrol</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="rent-btn">Rent Now</button>
+            </div>
+        </div>
+
+        <div class="car-box carousel-item">
+            <div class="car-text">
+                <img id="third-img" src="./images/download__7_-removebg-preview (3) 1.png" alt="">
+            </div>
+            <h4>2020 Audi A4</h4>
+            <div class="price">
+                <h2>$422</h2>
+                <p>/month</p>
+            </div>
+            <hr>
+            <div class="icon-text-container">
+                <div class="icon-text">
+                    <i class="fa-solid fa-car"></i>
+                    <p>20k</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa fa-codiepie" aria-hidden="true"></i>
+                    <p>Auto</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa-solid fa-gas-pump"></i>
+                    <p>Petrol</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="rent-btn">Rent Now</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="carousel-nav">
+        <button id="prev-btn"><</button>
+        <button id="next-btn">></button>
+      </div>
+
+
+      <section>
+        <div class="top-brands">
+            <h2 id="popin">BEST EXPERIENCE</h2>
+            <h1>We Are Ensuring Best <br>
+                Costumer Experience</h1>
+            </div>
+
+            <div class="flexing-all">
+
+            <div class="icon-boxes">
+                <div class="icon-box">
+                    <img src="./images/Group 34.png" alt="">
+                    <h5>Compitative price</h5>
+                </div>
+                <div class="icon-box">
+                    <img src="./images/Group 34.png" alt="">
+                    <h5>Easier Rent On <br>
+                        Your Budget</h5>
+                </div>
+                <div class="icon-box">
+                    <img src="./images/Group 34.png" alt="">
+                    <h5>The Best Extended <br>
+                        Auto Warrenties</h5>
+                </div>
+            </div>
+
+            <div class="line-boxes">
+                <div class="line-box">
+                    <img src="./images/Group 74.png" alt="">
+                </div>
+                <div class="line-box">
+                    <img src="./images/Group 78 (2).png" alt="">
+                </div>
+                <div class="line-box">
+                    <img src="./images/Group 77.png" alt="">
+                </div>
+            </div>
+
+            <div class="car-img">
+                <img src="./images/download__12_-removebg-preview (2) 1 (1).png" alt="">
+            </div>
+
+            <div class="line-boxes">
+                <div class="line-box">
+                    <img src="./images/Group 76.png" alt="">
+                </div>
+                <div class="line-box">
+                    <img src="./images/Group 79.png" alt="">
+                </div>
+                <div class="line-box">
+                    <img src="./images/Group 78.png" alt="">
+                </div>
+            </div>
+
+            <div class="icon-boxes">
+                <div class="icon-box">
+                    <img src="./images/Group 34.png" alt="">
+                    <h5>Roadside <br>
+                        Assistance 24/7</h5>
+                </div>
+                <div class="icon-box">
+                    <img src="./images/Group 34.png" alt="">
+                    <h5>Most Flexible <br>
+                        payment Plan</h5>
+                </div>
+                <div class="icon-box">
+                    <img src="./images/Group 34.png" alt="">
+                    <h5>Your Choice of <br>
+                        machanics</h5>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="tick-btns">
+            <div class="img-txt-img">
+                <img id="img-btn" src="./images/Group 92.png" alt="">
+                <h4>Engine</h4>
+                <img id="tick" src="./images/ph_check-bold.png" alt="">
+            </div>
+          
+            <div class="img-txt-img">
+                <img id="img-btn" src="./images/Group 93.png" alt="">
+                <h4>Transmission</h4>
+                <img id="tick" src="./images/ph_check-bold.png" alt="">
+            </div>
+        
+            <div class="img-txt-img">
+                <img id="img-btn" src="./images/Group 94.png" alt="">
+                <h4>Electrical</h4>
+                <img id="tick" src="./images/ph_check-bold.png" alt="">
+            </div>
+        
+            <div class="img-txt-img">
+                <img id="img-btn" src="./images/Group 95.png" alt="">
+                <h4>Cooling</h4>
+                <img id="tick" src="./images/ph_check-bold.png" alt="">
+            </div>
+        
+            <div class="img-txt-img">
+                <img id="img-btn" src="./images/Group 96.png" alt="">
+                <h4>20+ Check all</h4>
+                <img id="tick" src="./images/ph_check-bold.png" alt="">
+            </div>
+        </div>
+      </section>
+     
+
+      <div class="reviews-section">
+        <h2>Read Reviews</h2>
+        <h3>Know What Our Customers Say's</h3>
+        <div class="reviews-carousel">
+            <button class="carousel-button prev">‹</button>
+            <div class="reviews-wrapper">
+                <div class="reviews-container">
+                    
+                    <div class="review-card-wrapper">
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p>"Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis."</p>
+                        </div>
+                        <div class="reviewer">                          
+                            <div class="reviewer-info">
+                                <p>Alex Cathy</p>
+                                <span>Customer</span>
+                            </div>
+                            <img src="./images/Ellipse 4.png" alt="Profile Picture">
+                        </div>
+                    </div>
+                    <div class="review-card-wrapper">
+                        <div id="color" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p>"Gorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis."</p>
+                        </div>
+                        <div class="reviewer">
+                            <div class="reviewer-info">
+                                <p>John Doe</p>
+                                <span>Customer</span>
+                            </div>
+                            <img src="./images/Ellipse 5.png" alt="Profile Picture">
+                        </div>
+                    </div>
+                    <div class="review-card-wrapper">
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p>"Gorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis."</p>
+                        </div>
+                        <div class="reviewer">
+                            <div class="reviewer-info">
+                                <p>Jane Smith</p>
+                                <span>Customer</span>
+                            </div>
+                            <img src="./images/Ellipse 6.png" alt="Profile Picture">
+                        </div>
+                    </div>
+                   
+                    <div class="review-card-wrapper">
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p>"Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis."</p>
+                        </div>
+                        <div class="reviewer">
+                            <div class="reviewer-info">
+                                <p>Michael Johnson</p>
+                                <span>Customer</span>
+                            </div>
+                            <img src="./images/Ellipse 4.png" alt="Profile Picture">
+                        </div>
+                    </div>
+                    <div  class="review-card-wrapper">
+                        <div id="color" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p>"Gorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis."</p>
+                        </div>
+                        <div class="reviewer">
+                            <div class="reviewer-info">
+                                <p>Sarah Brown</p>
+                                <span>Customer</span>
+                            </div>
+                            <img src="./images/Ellipse 5.png" alt="Profile Picture">
+                        </div>
+                    </div>
+                    <div class="review-card-wrapper">
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p>"Gorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis."</p>
+                        </div>
+                        <div class="reviewer">
+                            <div class="reviewer-info">
+                                <p>Emma Wilson</p>
+                                <span>Customer</span>
+                            </div>
+                            <img src="./images/Ellipse 6.png" alt="Profile Picture">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-button next">›</button>
+        </div>
+        <div class="carousel-dots">
+            <span class="dot" onclick="showReview(0)"></span>
+            <span class="dot" onclick="showReview(1)"></span>
+        </div>
+    </div>
+
+    <div class="blogs-section">
+        <h2>OUR BLOGS</h2>
+        <h3>What Our Author Post on Newsfeed</h3>
+        <div class="blogs-container">
+            <div class="blog-card">
+                <img src="./images/download (13) 1.png" alt="Car Image 1" class="blog-image">
+                <div class="blog-content">
+                    <p class="date">Nov 25, 2023</p>
+                    <h4>Ultimate Mobility Solution</h4>
+                    <p id="paragraph">Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis.</p>
+                    <button class="read-more">Read Now</button>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="./images/images (6) 1.png" alt="Car Image 2" class="blog-image">
+                <div class="blog-content">
+                    <p class="date">Nov 25, 2023</p>
+                    <h4>Ultimate Mobility Solution</h4>
+                    <p  id="paragraph">Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis.</p>
+                    <button class="read-more">Read Now</button>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="./images/images (7) 1.png" alt="Car Image 3" class="blog-image">
+                <div class="blog-content">
+                    <p class="date">Nov 25, 2023</p>
+                    <h4>Ultimate Mobility Solution</h4>
+                    <p id="paragraph">Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis.</p>
+                    <button class="read-more">Read Now</button>
+                </div>
+            </div>
+        </div>
+    </div>     
+    </main> 
+
+    
+     <footer>
+        <div class="footer-container">
+            <div class="footer-design">
+                <div class="footer-logo">
+                    <img src="./images/Mask group.png" alt="Car Rental Logo">
+                    <h3>Car Rental</h3>
+                    <div class="btnn">Premium Service</div>
+                    <p id="footer-para">Lorem ipsum dolor sit amet, adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis et velit interdum, ac aliquet odio mattis ac aliquet odio mattis et velit interdum, ac aliquet odio mattis.</p>
+                </div>
+            </div>
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Why Rental</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Centers</a></li>
+                        <li><a href="#">Investors</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Extras</h4>
+                    <ul>
+                        <li><a href="#">Repair centres</a></li>
+                        <li><a href="#">Booking</a></li>
+                        <li><a href="#">News Offers</a></li>
+                        <li><a href="#">Investors</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Resources</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">News Offers</a></li>
+                        <li><a href="#">Investors</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"> <i class="fa-brands fa-snapchat"></i></a>          
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+        </div>
+        <div class="footer-newsletter">
+            <h4>Newsletter</h4>
+            <div class="newsletter-input">
+                <input type="email" id="email-input" placeholder="Email Address" />
+                <button type="submit">→</button>
+            </div>          
+        </div>
+        <hr>
+        <div class="footer-txt">
+            <p>All right Reserved <span>@Muskansheraz</span></p>
+        </div>
+        
+    </footer> 
+    
+    
+    
+    
+    
+     <script src="script.js">
+       
+      </script>
+</body>
+</html>
